@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:    Multi-value capable .ini file reader (for plugins)
 License:    GPL+ or Artistic
@@ -46,7 +46,7 @@ an exception would be raised while reading this section.
 %make
 
 %check
-make test
+%make test
 
 %install
 rm -rf %buildroot
@@ -57,8 +57,6 @@ rm -rf %buildroot
 
 %files
 %defattr(-,root,root)
-%doc Changes LICENSE README
+%doc Changes LICENSE README META.json
 %{_mandir}/man3/*
 %perl_vendorlib/*
-
-
