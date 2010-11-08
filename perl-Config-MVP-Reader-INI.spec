@@ -1,9 +1,9 @@
 %define upstream_name    Config-MVP-Reader-INI
-%define upstream_version 2.101460
+%define upstream_version 2.101461
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Multi-value capable .ini file reader (for plugins)
 License:    GPL+ or Artistic
