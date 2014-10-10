@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 2.101462
-Release:	1
+Release:	2
 
 Summary:	Multi-value capable .ini file reader (for plugins)
 License:	GPL+ or Artistic
