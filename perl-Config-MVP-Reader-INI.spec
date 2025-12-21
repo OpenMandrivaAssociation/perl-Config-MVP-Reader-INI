@@ -11,6 +11,7 @@ Group:		Development/Perl
 Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Config/Config-MVP-Reader-INI-2.101462.tar.gz
 
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(Config::INI::Reader)
 BuildRequires:	perl(Config::MVP::Assembler)
