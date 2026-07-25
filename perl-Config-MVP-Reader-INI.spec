@@ -1,15 +1,15 @@
 %define upstream_name    Config-MVP-Reader-INI
-%define upstream_version 2.101462
+%define upstream_version 2.101465
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 2.101462
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Multi-value capable .ini file reader (for plugins)
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Config/Config-MVP-Reader-INI-2.101462.tar.gz
+Url:		https://github.com/rjbs/Config-MVP-Reader-INI
+Source0:	https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Config-MVP-Reader-INI-2.101465.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
